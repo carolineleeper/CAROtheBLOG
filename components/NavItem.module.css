@@ -1,0 +1,9 @@
+.navItem {
+  text-decoration: none;
+}
+.navItem:visited {
+  color: inherit;
+}
+.navItem:hover {
+  color: slateblue;
+}

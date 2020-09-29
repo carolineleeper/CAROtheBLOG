@@ -1,0 +1,21 @@
+{
+  "name": "carotheblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "author": "Caroline Leeper",
+  "license": "ISC",
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "marked": "^1.2.0",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
