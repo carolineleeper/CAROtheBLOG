@@ -7,6 +7,7 @@ const Blog = (props) => {
     <>
       <h2>{props.data.title}</h2>
       <p>It was written by 🧔🏻 {props.data.author}</p>
+      <img src={props.data.pic} />
       <div dangerouslySetInnerHTML={{ __html: props.html }} />
     </>
   );
