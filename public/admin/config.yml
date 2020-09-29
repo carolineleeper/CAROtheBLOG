@@ -9,7 +9,7 @@ collections:
     files:
       - label: "Blog"
         name: "blog"
-        file: "content/blog.md"
+        file: "blogs/blog.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Author", name: "author", widget: "string" }
